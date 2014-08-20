@@ -1,0 +1,138 @@
+body
+{
+	text-align: center;			/*align text to the center */
+	width: 1200px;				/*declare width size*/
+	margin: 30px auto;			/*set margin*/
+	/*background-image:url('bgimage.jpg');	/*set Background image*/
+	color: black; 				/*set color black*/
+	font-size: 18px;			/*set font-size*/
+	font-family: 'Underdog', cursive;	/*set font type linked from google word style*/
+	background-color: 000FFF;
+}
+
+/*navigation characterstic*/
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover  ul {
+		display: block;
+	}
+	
+	nav ul {
+	height: 30px;
+	list-style: none;
+	
+	padding: 0 0;
+	margin: 0;
+	
+	
+	
+	background: #efefef; 
+
+	box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+	
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+	
+	nav ul li {
+	float: left;
+}
+	nav ul li:hover {
+		background: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	}
+		nav ul li:hover a {
+			color: #fff;
+		}
+	
+	nav ul li a {
+		display: block; padding: 15px 20px;
+		color: #757575; text-decoration: none;
+	}
+	
+	
+	nav ul ul {
+	background: #5f6975; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			padding: 15px 40px;
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: #4b545f;
+			}
+			
+			
+			/*   navigation from http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu    */
+			
+h1
+{	
+	color: #342D7E;
+	margin-top: 2%;
+}
+h2
+{
+	color: #153E7E;
+	text-align:right;
+}
+/*class #img properties*/
+.img
+{
+	margin-left:3%;
+	margin-right:3%;
+	margin-bottom:5%;
+	margin-top:5%;
+}
+
+/*class para1 properties*/
+.para1
+{
+	margin-left:33%;
+	text-align: justify;
+	line-height:140%;
+}
+
+/*first- letter of paragraph para1*/
+.para1:first-letter
+{
+	font-size:250%;
+	font-family:Airal Black;
+	font-style:bold;
+	
+} 
+
+/*class #para2 properties*/
+.para2
+{
+	text-indent:30px;
+	margin-left:3%;
+	margin-top: 1%;
+	text-align: justify;
+	line-height:140%;
+}
+
+.video
+{
+	text-align: center;
+}
+
+img
+{
+	padding: 15px;
+}

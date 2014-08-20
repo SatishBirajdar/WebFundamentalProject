@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Sound Test</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	</head>
+	
+	<body>
+		<script type="text/javascript">
+			
+			function main(soundFile)
+			{
+				document.getElementById("dummy").innerHTML="<embed src=\""+soundFile+"\" hidden=\"true\" autostart=\"true\" loop=\"false\" />"
+			}
+			
+		</script>
+		<span id="dummy"></span> </br>
+	</body>
+	<input type="button" onClick="main('Engine.mp3')" value="Play Sound" >
+</html>
